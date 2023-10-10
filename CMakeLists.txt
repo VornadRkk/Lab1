@@ -15,3 +15,6 @@ if(MSVC)
 endif()
 # Включите подпроекты.
 add_subdirectory ("Lab1")
+add_executable (Lab1 "Lab1.cpp" "Lab1.h")
+
+
